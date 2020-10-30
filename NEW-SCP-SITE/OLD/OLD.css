@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav {
+  background-color: orange;
+  color: rgb(219, 114, 15);
+}
+
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 0px;
+}
+
+.nav ul li {
+  padding: 16px;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: background-color 0.2s;
+}
+
+.nav ul li:hover{
+  background-color: grey;
+}
+
+.image-area {
+  background-image:url('SCP.svg(1).png');
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.image-text {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Trade Winds', ;
+}
+
+.intro-text {
+  max-width: 1020px;
+  margin: 0px auto;
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font: 'Trade Winds', ;
+}
+
+@media screen and (min-width: 700px){
+  .nav ul {
+    text-align: right;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    /* border-left: 1px solid black; */
+    text-align: left;
+  }
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size:  50px;
+  font-weight: bold;
+}
+h3 {
+    color: black;
+  text-align: center;
+}
+.news {
+  color: red
+} 
+/* idk why but this adds bolit points sooo gay */
+.nav ul {
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  list-style-type: none;
+  font-size: 25px; 
+  
+}
+
+
+/* did you like the back ground  */
+
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: .f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.span {
+  text-align: center;
+}
+
+.KillAgent {
+  text-align: center;
+  padding: 10px;
+  color: rgb(119, 0, 255);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
